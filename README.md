@@ -65,9 +65,7 @@ Evershop provides an all-in-one platform with:
 
 ## 👨‍💻 My Role & Contributions
 
-> _[PLACEHOLDER: Customize this section based on your actual role]_
-
-As a **[Your Role - e.g., Lead Flutter Developer / Full-Stack Developer]**, I was responsible for:
+As a Lead Flutter Developer, I was responsible for:
 
 ### Core Development
 
@@ -103,19 +101,19 @@ As a **[Your Role - e.g., Lead Flutter Developer / Full-Stack Developer]**, I wa
   <table>
     <tr>
       <td align="center">
-        <h3>[PLACEHOLDER]</h3>
+        <h3>!k+</h3>
         <p>Downloads</p>
       </td>
       <td align="center">
-        <h3>[PLACEHOLDER]</h3>
+        <h3>250-400</h3>
         <p>Monthly Active Users</p>
       </td>
       <td align="center">
-        <h3>[PLACEHOLDER]⭐</h3>
+        <h3>4.8⭐</h3>
         <p>App Store Rating</p>
       </td>
       <td align="center">
-        <h3>[PLACEHOLDER]</h3>
+        <h3>$1.2k on average</h3>
         <p>Creator Earnings</p>
       </td>
     </tr>
