@@ -101,7 +101,7 @@ As a Lead Flutter Developer, I was responsible for:
   <table>
     <tr>
       <td align="center">
-        <h3>!k+</h3>
+        <h3>1k+</h3>
         <p>Downloads</p>
       </td>
       <td align="center">
@@ -113,7 +113,7 @@ As a Lead Flutter Developer, I was responsible for:
         <p>App Store Rating</p>
       </td>
       <td align="center">
-        <h3>$1.2k on average</h3>
+        <h3>$1.2k</h3>
         <p>Creator Earnings</p>
       </td>
     </tr>
@@ -122,27 +122,26 @@ As a Lead Flutter Developer, I was responsible for:
 
 ### Key Achievements
 
-- 📈 **[PLACEHOLDER]%** increase in user engagement after feed optimization
-- ⚡ **[PLACEHOLDER]ms** average app cold start time
-- 🐛 **99.9%** crash-free sessions (Firebase Crashlytics)
-- 🔄 **[PLACEHOLDER]%** reduction in app size through optimization
+- 📈 **24%** increase in user engagement after feed optimization
+- ⚡ **1,600ms** average app cold start time
+- 🐛 **99.99%** crash-free sessions (Firebase Crashlytics)
+- 🔄 **60%** reduction in app size through optimization
 
 ---
 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="[PLACEHOLDER_FEED_SCREENSHOT]" width="180" alt="Feed Screen"/>
-  <img src="[PLACEHOLDER_PROFILE_SCREENSHOT]" width="180" alt="Profile Screen"/>
-  <img src="[PLACEHOLDER_PRODUCT_SCREENSHOT]" width="180" alt="Product View"/>
-  <img src="[PLACEHOLDER_CREATE_POST_SCREENSHOT]" width="180" alt="Create Post"/>
+  <img src="assets/2.PNG" width="180" alt="Feed Screen"/>
+  <img src="assets/5.png" width="180" alt="Profile Screen"/>
+  <img src="assets/3.PNG" width="180" alt="Product View"/>
+  <img src="assets/4.PNG" width="180" alt="Search Screen"/>
 </p>
 
 <p align="center">
-  <img src="[PLACEHOLDER_COLLECTION_SCREENSHOT]" width="180" alt="Collection Screen"/>
-  <img src="[PLACEHOLDER_SEARCH_SCREENSHOT]" width="180" alt="Search Screen"/>
-  <img src="[PLACEHOLDER_SESSION_SCREENSHOT]" width="180" alt="Session Booking"/>
-  <img src="[PLACEHOLDER_SETTINGS_SCREENSHOT]" width="180" alt="Settings Screen"/>
+  <img src="assets/8.PNG" width="180" alt="Collection Screen"/>
+  <img src="assets/9.PNG" width="180" alt="Session Booking"/>
+  <img src="assets/7.png" width="180" alt="Settings Screen"/>
 </p>
 
 ---
@@ -472,11 +471,11 @@ fvm flutter build ipa --release --flavor=production -t "lib/flavors/main_product
 ---
 
 <p align="center">
-  <a href="[PLACEHOLDER_APP_STORE_LINK]">
+  <a href="https://apps.apple.com/us/app/evershop/id6472175152">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store" height="50"/>
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="[PLACEHOLDER_PLAY_STORE_LINK]">
+  <a href="https://play.google.com/store/apps/details?id=ai.evershop.app&hl=en">
     <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="50"/>
   </a>
 </p>
