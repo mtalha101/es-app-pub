@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="[PLACEHOLDER_APP_STORE_LINK]">
+  <a href="https://apps.apple.com/us/app/evershop/id6472175152">
     <img src="https://img.shields.io/badge/App_Store-Available-0D96F6?logo=app-store&logoColor=white" alt="App Store"/>
   </a>
-  <a href="[PLACEHOLDER_PLAY_STORE_LINK]">
+  <a href="https://play.google.com/store/apps/details?id=ai.evershop.app&hl=en">
     <img src="https://img.shields.io/badge/Google_Play-Available-414141?logo=google-play&logoColor=white" alt="Play Store"/>
   </a>
   <img src="https://img.shields.io/badge/Flutter-3.16.9-02569B?logo=flutter" alt="Flutter Version"/>
@@ -20,9 +20,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Downloads-[PLACEHOLDER_DOWNLOADS]-green" alt="Downloads"/>
-  <img src="https://img.shields.io/badge/Active_Users-[PLACEHOLDER_USERS]-blue" alt="Active Users"/>
-  <img src="https://img.shields.io/badge/App_Rating-[PLACEHOLDER_RATING]⭐-yellow" alt="Rating"/>
+  <img src="https://img.shields.io/badge/Downloads-1000+-green" alt="Downloads"/>
+  <img src="https://img.shields.io/badge/Active_Users-830-blue" alt="Active Users"/>
+  <img src="https://img.shields.io/badge/App_Rating-4.8⭐-yellow" alt="Rating"/>
 </p>
 
 ---
@@ -30,13 +30,11 @@
 ## 🎬 Demo
 
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/64db5b1b6d4fcb8ea52ed9fb/67ff8a394faea05821e171dd_GRWNET%20-%20Website%20content-2-p-1080.png" alt="Evershop Demo" width="300"/>
-</p>
-
-<p align="center">
-  <a href="[PLACEHOLDER_YOUTUBE_DEMO_LINK]">
-    <img src="https://img.shields.io/badge/Watch_Full_Demo-YouTube-FF0000?logo=youtube&logoColor=white" alt="YouTube Demo"/>
-  </a>
+  <video width="300" autoplay loop muted playsinline>
+    <source src="assets/demo.MOV" type="video/quicktime">
+    <source src="assets/demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 ---
