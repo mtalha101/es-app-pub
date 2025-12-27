@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/64db5b1b6d4fcb8ea52ed9fb/65073c5beea0aedf35e7cb5c_SVG%20Evershop.svg" alt="Evershop Logo" width="120" height="120"/>
+  <img src="assets/es-logo.png" alt="Evershop Logo" width="120" height="120"/>
 </p>
 
 <h1 align="center">Evershop</h1>
