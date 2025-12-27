@@ -1,0 +1,173 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+// def flutterRoot = localProperties.getProperty('flutter.sdk')
+// if (flutterRoot == null) {
+//     throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+// }
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+def secretPropertiesFile = rootProject.file("secret.properties")
+def secretProperties = new Properties()
+secretProperties.load(new FileInputStream(secretPropertiesFile))
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+// apply plugin: 'com.android.application'
+// START: FlutterFire Configuration
+// apply plugin: 'com.google.gms.google-services'
+// apply plugin: 'com.google.firebase.firebase-perf'
+// apply plugin: 'com.google.firebase.crashlytics'
+// END: FlutterFire Configuration
+// apply plugin: 'kotlin-android'
+// apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 34
+    ndkVersion flutter.ndkVersion
+    buildToolsVersion "35.0.0"
+    namespace "ai.evershop.app"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "ai.evershop.app"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+        minSdkVersion 24
+        targetSdkVersion 34
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+
+        manifestPlaceholders += [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "dev-7hdkwwmiiecvh7av.us.auth0.com"]
+
+        buildConfigField("String", "INSTAGRAM_CLIENT_ID", secretProperties['INSTAGRAM_CLIENT_ID'])
+        buildConfigField("String", "INSTAGRAM_CLIENT_SECRET", secretProperties['INSTAGRAM_CLIENT_SECRET'])
+        buildConfigField("String", "REDIRECT_URI", secretProperties['REDIRECT_URI'])
+    }
+
+    signingConfigs {
+       release {
+           keyAlias keystoreProperties['keyAlias']
+           keyPassword keystoreProperties['keyPassword']
+           storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+           storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            shrinkResources false
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    flavorDimensions "default"
+    productFlavors {
+        development {
+            dimension "default"
+            applicationIdSuffix ".dev"
+            resValue "string", "app_name", "Evershop Dev"
+        }
+        staging {
+            dimension "default"
+            applicationIdSuffix ".stg"
+            resValue "string", "app_name", "Evershop Staging"
+        }
+        production {
+            dimension "default"
+            applicationIdSuffix ""
+            resValue "string", "app_name", "Evershop"
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "com.android.support:multidex:2.0.1"
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+
+    // Import the BoM for the Firebase platform
+    implementation platform("com.google.firebase:firebase-bom:32.1.1")
+
+    // Add the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation "com.google.firebase:firebase-crashlytics-ktx"
+    implementation "com.google.firebase:firebase-analytics-ktx"
+
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
+
+    implementation 'io.branch.sdk.android:library:5.+'
+    // alternatively, use the following lib for getting the AAID
+    // implementation 'com.google.android.gms:play-services-ads:17.2.0'
+    // optional
+    // Chrome Tab matching (enables 100% guaranteed matching based on cookies)
+    implementation 'com.auth0.android:auth0:2.+'
+    
+    implementation 'androidx.browser:browser:1.0.0'
+    implementation 'com.bytedance.ies.ugc.aweme:opensdk-oversea-external:0.2.1.2'
+    implementation([
+           'com.snap.loginkit:loginkit:2.1.0',
+    ])
+    implementation 'com.tiktok.open.sdk:tiktok-open-sdk-core:latest.release'
+    implementation 'com.tiktok.open.sdk:tiktok-open-sdk-auth:latest.release'
+    implementation 'com.tiktok.open.sdk:tiktok-open-sdk-share:latest.release'
+    
+    implementation('com.google.android.exoplayer:exoplayer:2.19.1')
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.19.1'
+    implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.19.1'
+
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+
+    // Stripe dependencies
+    implementation 'com.google.android.gms:play-services-wallet:19.2.6'
+}

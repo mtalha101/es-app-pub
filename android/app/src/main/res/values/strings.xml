@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">1918665175165166</string>
+    <string name="facebook_client_token">993d184997b6e9da07f25868ae210d4c</string>
+    <string-array name="snap_connect_scopes">
+        <item>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</item>
+        <item>https://auth.snapchat.com/oauth2/api/user.display_name</item>
+    </string-array>
+    <string name="com_auth0_domain">dev-7hdkwwmiiecvh7av.us.auth0.com</string>
+</resources>

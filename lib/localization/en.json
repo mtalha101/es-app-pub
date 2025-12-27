@@ -1,0 +1,684 @@
+{
+    "onboarding_screen": {
+        "welcome_message": "Welcome to Evershop",
+        "discover_message": "Discover, Share and Earn!",
+        "create_style_message": "Create and Share Your Style",
+        "share_recommendation_message": "Share your favorite looks and product recommendations.",
+        "track_success_message": "Track Your Success!",
+        "monitor_performance_message": "Monitor your performance and see your impact.",
+        "ready_to_start_message": "You're Ready to Start!",
+        "influence_profitable_message": "Let's make your influence profitable",
+        "skip_button": "Skip"
+    },
+    "welcome_screen": {
+        "scroll_products_message": "Scroll through your favorite products.",
+        "login_button": "Login",
+        "create_account_button": "Create an account",
+        "skip_button": "Skip"
+    },
+    "login_screen": {
+        "login_title": "Login",
+        "community_message": "Become part of our community now",
+        "phone_label": "Phone",
+        "email_label": "Email",
+        "password_label": "Password",
+        "forgot_password_message": "Forgot password?",
+        "login_with_email": "Login using email",
+        "login_with_phone": "Login using phone",
+        "or_separator": "OR",
+        "continue_with_google": "Continue with Google",
+        "continue_with_apple": "Continue with Apple",
+        "no_account_message": "Don't have an account?",
+        "signup_link": "Signup",
+        "enter_email_message": "Please enter your email and password",
+        "invalid_email_message": "Please enter a valid email",
+        "incorrect_password_message": "The password is incorrect",
+        "email_not_registered_message": "This email is not registered",
+        "login_error_message": "Error logging in",
+        "enter_phone_message": "Please enter your phone number",
+        "invalid_phone_message": "Please enter a valid phone number",
+        "phone_not_registered_message": "This phone number is not registered",
+        "too_many_attempts_message": "Too many attempts, please try again later.",
+        "phone_verification_failed_message": "Failed to verify phone number."
+    },
+    "register_screen": {
+        "signup_title": "Signup",
+        "essential_info_message": "Fill out the essential information to create your account",
+        "phone_label": "Phone",
+        "email_label": "Email",
+        "password_label": "Password",
+        "signup_with_email": "Signup using email",
+        "signup_with_phone": "Signup using phone",
+        "terms_agreement_message1": "I agree to the ",
+        "terms_agreement_message2": "terms of use",
+        "terms_agreement_message3": ", ",
+        "terms_agreement_message4": "privacy policy",
+        "terms_agreement_message5": " and ",
+        "terms_agreement_message6": "partnership agreement",
+        "create_account_button": "Create an Account",
+        "or_separator": "OR",
+        "continue_with_google": "Continue with Google",
+        "continue_with_apple": "Continue with Apple",
+        "existing_account_message": "Already have an account?",
+        "login_link": "Login",
+        "enter_email_message": "Please enter an email",
+        "invalid_email_message": "Invalid email",
+        "enter_password_message": "Please enter a password",
+        "password_length_message": "Password must be at least 8 characters",
+        "password_strength_message": "Password must contain at least 1 uppercase letter, 1 lowercase letter, and 1 number",
+        "terms_condition_agreement_message": "Please agree to the terms and conditions",
+        "email_already_registered_message": "This email is already registered",
+        "enter_phone_message": "Please enter your phone number",
+        "phone_already_registered_message": "This phone number is already registered",
+        "too_many_attempts_message": "Too many attempts, please try again later.",
+        "phone_verification_failed_message": "Failed to verify phone number."
+    },
+    "forgot_password_screen": {
+        "title": "Forgot Password",
+        "email_label": "Email Address",
+        "reset_button": "Reset",
+        "enter_email_message": "Please enter your email",
+        "invalid_email_message": "Please enter a valid email",
+        "reset_success_message": "Reset password email has been sent successfully",
+        "email_not_registered_message": "This email is not registered",
+        "reset_failed_message": "Unable to send reset password email"
+    },
+    "verify_email_screen": {
+        "title": "Verify Email",
+        "verify_message": "Please verify email by clicking the link sent to your email address, then press continue",
+        "continue_button": "Continue",
+        "resend_email_button": "Resend Email",
+        "logout_button": "Logout",
+        "email_not_verified_message": "Email not verified",
+        "error_resending_email_message": "Error resending email",
+        "email_sent_message": "Email sent",
+        "sending_email_message": "Sending email...",
+        "resend_in": "Resend in",
+        "seconds_suffix": "s"
+    },
+    "share_utils": {
+        "share_prodile":"Share Profile",
+        "copy_instagram":"Copy Link\nfor Instagram",
+        "share_post":"Share Post",
+        "title": "Link Copied",
+        "content": "Do you want to open Instagram?",
+        "cancel": "Cancel",
+        "open": "Open",
+        "error": "can't open Instagram"
+
+    },
+    "add_phone_screen": {
+        "title": "What's your phone number?",
+        "description": "We'll send a code to verify & link your phone number to your Evershop account",
+        "phone_label": "Phone",
+        "send_code_button": "Send Code",
+        "enter_phone_message": "Please enter your phone number",
+        "phone_already_registered_message": "This phone number is already registered",
+        "phone_verification_failed_message": "Failed to verify phone number",
+        "too_many_attempts_message": "Too many attempts, please try again later."
+    },
+    "main_feed": {
+        "buy_now_button": "Buy Now",
+        "report_post_button": "Report Post",
+        "report_user_button": "Report User",
+        "share_post_message": "Check out this post",
+        "share_product_message": "Check out this product"
+    },
+    "launch_socials": {
+        "invalid_url_message": "The link is invalid"
+    },
+    "notifications": {
+        "missing_message": "App is missing you",
+        "reminder_message": "You haven't visited the app in a while"
+    },
+    "report_submitted": {
+        "title": "Report submitted"
+    },
+    "user_blocked_dialog": {
+        "title": "User Blocked"
+    },
+    "phone_textField": {
+        "select_country_label": "Select Country",
+        "search_country_label": "Search Country"
+    },
+    "choose_username_controller": {
+        "title": "Please enter a username",
+        "username_lenght_message": "Username must be at least 5 characters",
+        "username_instruction": "Username can only contain letters, numbers, and underscsore",
+        "username_taken_message": "Username already taken"
+    },
+    "choose_usename_screen": {
+        "username_label": "Username.",
+        "choose_message": "Choose a unique username for your account.",
+        "continue_button": "Continue",
+        "username_message1":"We will use a temporary username",
+        "username_message2":"You can change it later in your profile settings."
+    },
+    "verify_OTP_controller": {
+        "sent_code_message": "OTP Sent!",
+        "incorrect_code_message": "Incorrect OTP. Please try again.",
+        "code_verification_error_message": "Unknown Error Occured"
+    },
+    "verify_otp_screen": {
+        "appbar_title": "Verify OTP",
+        "verify_otp_heading": "Verify OTP.",
+        "otp_instruction": "Please enter the OTP sent to your phone number.",
+        "resending_otp_message": "Resending OTP...",
+        "resend_otp_in_message": "Resend OTP in",
+        "seconds_suffix": "seconds",
+        "did_not_receive_otp_message": "Didn't receive the OTP?",
+        "resend_button": "Resend",
+        "verify_button": "Verify"
+     },
+     "collection_screen":{
+        "collection_label": "Collection - ",
+        "loading_collection_message": "Loading collection..."
+     },
+     "submit_post_report_screen": {
+        "appbar_title": "Report Post",
+        "report_preview": "Report preview • ",
+        "report_message": "You're about to submit a report about this post for ",
+        "post_content": "Post content",
+        "post_caption": "Post caption",
+        "report_reason": "Report reason",
+        "no_reason_selected": "No reason selected",
+        "submit_report": "Submit report"
+    },
+    "submit_user_report_screen":{
+        "appBarTitle": "Report User",
+        "reportPreview": "Report preview • ",
+        "reportMessage": "You're about to submit a report about this user for ",
+        "userContent": "User content",
+        "user": "User",
+        "posts": " posts",
+        "reportReason": "Report reason",
+        "noReasonSelected": "No reason selected",
+        "submitReport": "Submit report"
+    },
+    "reasons": {
+        "Spam": "Spam content",
+        "Inappropriate": "Inappropriate content",
+        "Abusive": "Abusive or harmful content",
+        "HateSpeech": "Hate speech or violence",
+        "FalseInfo": "False information",
+        "Nudity": "Nudity or sexual content",
+        "Bullying": "Bullying or harassment",
+        "Scam": "Scam or fraud",
+        "Suicide": "Suicide or self-injury",
+        "IllegalGoods": "Illegal or regulated goods",
+        "IPViolation": "Intellectual property violation",
+        "Drugs": "Drugs"
+    },
+    "report_bottomsheet": {
+        "report_user_reason": "Why are you reporting this user?",
+        "report_post_reason": "Why are you reporting this post?",
+        "report_anonymity_message": "Your report is anonymous, except if you're reporting intellectual property infringement.",
+        "user_content_label": "User content"
+    },
+    "delete_dialog": {
+        "title": "Delete Post",
+        "confirmation_message": "Are you sure you want to delete this post?",
+        "delete_button": "Delete post",
+        "deleting_message": "Deleting post..."
+    },
+    "edit_bottomsheet": {
+        "edit_post": "Edit Post",
+        "publish_post": "Publish Post",
+        "unpublish_post": "Unpublish Post",
+        "delete_post": "Delete Post",
+        "report_post": "Report Post"
+    },
+    "product_bottomsheet": {
+        "promo_code_copied": "Promo code copied!",
+        "buy_now": "Buy Now",
+        "promo_code": "Promo Code: ",
+        "price_unavailable": "Price unavailable",
+        "Unknown": "Unknown"
+    },
+    "publish_post_dialog": {
+        "title": "Publish Post",
+        "confirmation_message": "Are you sure you want to publish this post?",
+        "publish_button": "Publish post",
+        "loading_message": "Publishing post..."
+    },
+    "unpublish_post_dialog": {
+        "title": "Unpublish Post",
+        "confirmation_message": "Are you sure you want to unpublish this post?",
+        "unpublish_button": "Unpublish post",
+        "loading_message": "Unpublishing post..."
+    },
+    "feed_post_snappy":{
+        "title_tag": "Title",
+        "description_tag": "Description",
+        "keywords_tag": "Keywords",
+        "seoText": "by",
+        "trimCollapsedText": "more",
+        "trimExpandedText": " less",
+        "percentageOff": "% OFF",
+        "currencyOff": " OFF",
+        "unpublishedText": "Unpublished"
+    },
+    "feed_post":{
+        "edit_label": "edit",
+        "delete_label": "delete"
+    },
+    "post_favorite": {
+        "title": "No favorite posts.",
+        "no_favorite_posts_message": "You haven't added any posts to favorites yet.",
+        "loading_message": "Loading favorite posts..."
+    },
+    "product_favorite": {
+        "title": "No favorite products.",
+        "no_favorite_products_message": "You haven't added any products to favorites yet.",
+        "loading_message": "Loading favorite products..."
+    },
+    "home_controller":{
+        "check_post_message":"Check out this post: ",
+        "check_out" : "Check out ",
+        "profile":" profile: ",
+        "this":"this",
+        "my":"my"
+    },
+    "post_options":{
+        "post_photo":"Create a post",
+        "post_video":"Post Video",
+        "cancel":"Cancel",
+        "create_collection": "Create a store collection"
+    },
+    "congrats_page":{
+        "congratulations": "Congratulations",
+        "approval_message": "Your request to be an creator has been approved and you can start posting now!",
+        "start_posting": "Start Posting",
+        "post_later": "I will post later"
+    },
+    "influencer_profile": {
+        "loading_posts_message": "Loading recent posts...",
+        "no_posts_message": "No posts yet!",
+        "loading_products_message": "Loading recent products...",
+        "no_products_message": "No products yet!",
+        "posts_tab": "Posts",
+        "store_tab": "Store",
+        "block_user_button": "Block User",
+        "report_user_button": "Report User",
+        "block_confirmation_message": "Are you sure you want to block this user?",
+        "block_button": "Block",
+        "unpublished_status": "Unpublished",
+        "post_reported_message": "Post reported",
+        "block_confirmation_message1":"If you block this user, you won't see their posts anymore.",
+        "not_now_button": "Not Now",
+        "convert_message": "Converting your profile to Influencer. It might take a few seconds. Don't close the app.",
+        "fill_details_message": "Please fill all of the required data"
+    },
+    "influencer_posts_screen": {
+        "no_likes_label": "No liked posts.",
+        "no_likes_message": "You haven't liked any post yet",
+        "liked_posts": "Liked Posts",
+        "post_not_found": "Post Not Found.",
+        "can't_find_post": "We can't the find the post you are looking for anymore."
+    },
+    "posts_screen": {
+        "discover_inspiration_title": "Discover inspiration",
+        "searchingPosts": "Searching Posts...",
+        "noPostsFound": "No posts found.",
+        "endOfPosts": "End of posts"
+    },
+    "sad_screen": {
+        "title": "Don't be Sad",
+        "message": "Your request to be a creator has been rejected, Gain some popularity on other social media platforms to get approved",
+        "button": "Continue"
+     },
+     "view_post_screen":{ 
+        "loading_post_message": "Loading post..."
+        },
+
+    "edit_post_screen":{
+        "appBarTitle": "Edit post",
+        "postDescriptionLabel": "Write Post Description",
+        "tagProductUrlHint": "Tag Product URL",
+        "updateButtonText": "Update"
+    },
+    "search_screen": {
+        "search_placeholder": "Search",
+        "recent_searches_label": "Recent Searches",
+        "creators_tab": "Creators",
+        "brands_tab": "Brands",
+        "products_tab": "Products",
+        "brans_searching":"Searching brands...",
+        "loadingCreators": "Searching creators...",
+        "fetching_creators": "Fetching creators...",
+        "noCreatorsFound": "No creators found.",
+        "noMatchingCreators": "There is no matching creators with your search.",
+        "endOfCreators": "End of creators",
+        "discover_products_label": "Discover products",
+        "loadingSearchProducts": "Searching products...",
+        "fetchingProductData": "Fetching products...",
+        "noProductsFound": "No products found.",
+        "noMatchingProducts": "There is no matching products with your search.",
+        "endOfProducts": "End of products",
+        "discover_title": "Discover - ",
+        "loadingMessage": "collection_screen.loading_collection_message",
+        "noProductFound": "No product found.",
+        "noProductAvailable": "There is no product avaiable in this category.",
+        "Fashion": "Fashion",
+        "Beauty": "Beauty",
+        "Luxury": "Luxury",
+        "Baby": "Baby",
+        "Home": "Home",
+        "Other": "Other"
+    },
+    "account_screen": {
+        "posts_tab": "Posts",
+        "store_tab": "Store",
+        "unpublished_profile_message": "Profile unpublished, Contact Support",
+        "unverified_profile_message": "Profile not verified, ",
+        "veify_now":"Verify Now",
+        "unpublished_status": "Unpublished",
+        "add_first_post_message": "Add your first post",
+        "add_post_button": "Add Post",
+        "ass_product_button":"Add Product",
+        "add_first_product_message": "Add your first product"
+
+    },
+    "add_product_controller": {
+        "search_error_message": "There was an error while adding the product",
+        "bw_message": "Please refrain from using inappropriate words.",
+        "4_sec_wait": "Getting the product data is taking too long, please wait...",
+        "stop_msg" : "fetching the product data took too long, proceeding with the data fetched so far..."
+    },
+    "become_influencer_controller":{
+        "tiktokDataError": "An error occurred while fetching your TikTok data",
+        "tiktokAccountInUse": "This TikTok account is already in use",
+        "usernameTaken": "This username is already taken",
+        "instagramAccountInUse": "This Instagram account is already in use"
+    },
+    "create_post_controller":{
+        "valid_url": "Please enter a valid URL",
+        "url_start": "The URL should start with https://",
+        "video_size": "The video size must be less than 50MB",
+        "image_size": "The image size must be less than 5MB",
+        "image_resolution": "The image resolution must be 480x853 at least",
+        "creating_post": "Creating your post...",
+        "error_creating_post": "An error occurred while creating your post"
+    },
+    "edit_post_controller":{
+        "imageResolutionError": "The image resolution must be 480x853 at least",
+        "emptyTextFieldError": "Please remove empty textfields for products to update",
+        "updatingPost": "Updating your post..."
+    },
+    "add_product_screen":{
+        "appBarTitle": "Add product",
+        "loadingText": "Fetching product data...",
+        "productTitleHint": "Product Title",
+        "tagsHint": "Tags",
+        "addTagPrefix": "+ Add Tag: ",
+        "currencyDefault": "SAR",
+        "productPriceHint": "Product Price",
+        "addButtonText": "Add"
+    },
+    "add_socials_screen":{
+        "appBarTitle": "Submit social proof",
+        "instructionText": "Try to fill out as many fields as you can to get approved",
+        "instagramLabel": "Add Instagram Link",
+        "instagramHint": "Add your Instagram URL",
+        "tiktokLabel": "Add Tiktok Link",
+        "tiktokHint": "Add your Tiktok URL",
+        "snapchatLabel": "Add Snapchat Link",
+        "snapchatHint": "Add your Snapchat URL",
+        "goBackText": "Go back"
+    },
+    "menu_screen": {
+        "appBarTitle": "Menu",
+        "deleteUser": "Delete User",
+        "adIdNotFound": "Ad ID not found",
+        "adIdCopied": "Ad ID copied",
+        "adIdCopy": "Copy Ad ID",
+        "linkSocialAccountsTitle": "Link your Social Accounts",
+        "linkSocialAccountsDescription": "Connect with socials, share inspiration, and watch your earnings grow",
+        "logIn": "Log In",
+        "submitted": "Submitted",
+        "linkNow": "Link Now",
+        "myLikes": "My Likes",
+        "profile": "Profile",
+        "myEarnings": "My Earnings",
+        "blockedUsers": "Blocked Users",
+        "pushNotifications": "Push Notifications",
+        "privacyPolicy": "Privacy Policy",
+        "termsConditions": "Term & Conditions",
+        "contactSupport": "Contact Support",
+        "logout": "Logout",
+        "deleteAccount": "Delete Account",
+        "partner_brands_menu": "Partner Brands"
+    },
+    "link_now": {
+        "become_verified_message": "Become Verified",
+        "link_socials_message": "Link your socials",
+        "link_instruction_message": "Link your TikTok and Instagram account. Rest assured, we won't post anything without your permission!",
+        "connect_tiktok_button": "Connect TikTok",
+        "connected_tiktok_button": "Connected to TikTok",
+        "connect_instagram_button": "Connect Instagram",
+        "connected_instagram_button": "Connected to Instagram"
+
+    },
+    "my_likes": {
+        "title": "Liked Items",
+        "products_tab": "Products",
+        "posts_tab": "Posts",
+        "loading_favorite_posts_message": "Loading favorite posts...",
+        "no_favorite_products_message": "You haven't added any products to favorites yet.",
+        "no_favorite_posts_message": "You haven't added any posts to favorites yet.",
+        "oops_message": "Oops!"
+    },
+    "profile_settings": {
+        "title": "Profile Settings",
+        "session_expired_message": "Session expired",
+        "login_again_message": "Please login in again to continue",
+        "edit_photo_label": "Edit Photo",
+        "name_label": "Name",
+        "Add_name_label": "Add Name",
+        "username_label": "Username",
+        "add_username_label": "Add Username",
+        "phone_label": "Phone",
+        "email_label": "Email",
+        "password_label": "Password",
+        "description_label": "Description",
+        "add_description_label": "Add Description",
+         "update_description_label": "Update Description",
+        "vibe_label": "Vibe",
+        "links_label": "Links",
+        "add_links_label": "Add Links",
+        "country_label": "Country",
+       "add_country_label": "Add Country",
+        "update_button": "Update",
+        "update_name_label": "Update Name",
+        "update_username_label": "Update Username",
+        "add_phone_number_label": "Add Phone Number",
+        "add_email_address_label": "Email Address",
+        "update_email_address_label": "Update Email Address",
+        "add_password_label": "Add Password",
+        "change_password_label": "Change Password",
+        "instagram_label": "Instagram",
+        "youtube_label": "YouTube",
+        "tiktok_label": "TikTok",
+        "snapchat_label": "Snapchat",
+        "twitter_label": "Twitter",
+        "pinterest_label": "Pinterest",
+        "other_links_label": "Other Links",
+        "choose_your_vibe_label": "Choose Your Vibe",
+        "social_links": "Social Links"
+    },
+    "contact_influencer_screen":{
+        "join_the_community": "Join the community",
+        "description": "We are thrilled to see your interest in becoming an Evershop creator! Share your style, inspire your followers, and earn commissions and rewards.",
+        "contact_us": "Contact Us"
+    },
+    "my_earnings": {
+        "title": "My Earnings",
+        "performance_summary_label": "Performance Summary",
+        "total_label": "Total",
+        "available_label": "Available",
+        "on_hold_label": "On-hold",
+        "gross_label": "Gross",
+        "net_label": "Net"
+    },
+    "blocked_users": {
+        "title": "Blocked Users",
+        "unblock_button": "Unblock",
+        "no_blocked_users_message": "No blocked users"
+    },
+    "partner_brands": {
+        "title": "Partner Brands",
+        "search_placeholder": "Search"
+    },
+    "delete_account": {
+        "title": "Delete Account",
+        "delete_instruction_message": "You can easily delete your account by contacting us through the 'Contact Us'. Please note that all your data, including saved posts and any content you've created, will be permanently removed. This action is irreversible, so ensure you've saved any important information.",
+        "privacy_note_message": "Thank you for using EVERSHOP. Your data privacy is important to us.",
+        "contact_us_label": "Contact Us"
+    },
+    "create_post": {
+        "title": "Add a Post",
+        "write_something_placeholder": "Write something here...",
+        "add_product_button": "Add Product",
+        "tag_instruction_message1": "Tag relevant product links from our ",
+        "tag_instruction_message2": "partner brands",
+        "tag_instruction_message3": " websites to earn commission",
+        "post_button": "Post",
+        "invalid_url_message": "Please enter a valid URL",
+        "url_format_message": "The URL should start with https://",
+        "image_resolution_message": "The image resolution must be at least 480x853",
+        "creating_post_message": "Creating your post...",
+        "access_denied_message": "Access Denied",
+        "photo_access_message": "Allow access to photos in order to post",
+        "open_settings_button": "Open Settings",
+        "done": "Done",
+        "free": "Free"
+    },
+    "unavailable_website": {
+        "title": "Website Unavailable",
+        "message": "We don't have this website currently in our network, we will add it at the soonest and share with you"
+    },
+    "video_editor_widget":{
+        "processingVideo": "Processing your video...",
+        "leaveEditorTooltip": "Leave editor",
+        "openCropScreenTooltip": "Open crop screen",
+        "doneButtonText": "Done",
+        "trimText": "Trim"
+    },
+    "change_controller":{
+        "validEmail": "Please enter a valid email address",
+        "usernameTaken": "Username already taken",
+        "usernameMinLength": "Username must be at least 5 characters",
+        "usernameInvalid": "Username can only contain letters, numbers, and underscores",
+        "validName": "Please enter a valid username",
+        "emailUpdated": "Email updated successfully",
+        "validDescription": "Please enter a valid description",
+        "descriptionUpdated": "Description updated successfully",
+        "validInstagramLink": "Please enter a valid Instagram link",
+        "validSnapchatLink": "Please enter a valid Snapchat link",
+        "validTikTokLink": "Please enter a valid TikTok link",
+        "validYouTubeLink": "Please enter a valid YouTube link",
+        "validPinterestLink": "Please enter a valid Pinterest link",
+        "validTwitterLink": "Please enter a valid Twitter link",
+        "atLeastOneLink": "Please enter at least one link",
+        "validLinks": "Please add valid links",
+        "usernameUpdated": "Username updated successfully"
+    },
+    "change_password_controller":{
+        "allFieldsRequired": "All fields are required",
+        "newPasswordsDoNotMatch": "New passwords do not match",
+        "passwordUpdated": "Password Updated!",
+        "oldPasswordIncorrect": "The old password is incorrect",
+        "passwordAdded": "Password Added!",
+        "pleaseLoginAgain": "Please login again to add a password",
+        "errorUpdatingPassword": "There was an error updating the password",
+        "emailInUse": "This email is already in use. Please try a different email to create password"
+    },
+    "settings_controller":{
+        "login_error": "Please login again to delete the user",
+        "delete_error": "There was an error deleting the user",
+        "chat_error": "There was an error opening the chat"
+    },
+    "blocked_user_screen":{
+        "title": "Blocked Users",
+        "no_blocked_users_message": "No blocked users",
+        "unblock_button": "Unblock"
+    },
+    "currency_change":{
+        "currency": "Select currency"
+    },
+    "change_password_screen":{
+        "appBarTitleWithPassword": "Change Password",
+        "appBarTitleWithoutPassword": "Add Password",
+        "oldPasswordHint": "Old Password",
+        "newPasswordHint": "New Password",
+        "confirmNewPasswordHint": "Confirm New Password",
+        "updateButtonText": "Update",
+        "addButtonText": "Add",
+        "createPassword": "Create Password"
+    },
+    "delete_account_screen":{
+        "title": "Delete Account",
+        "description": "You can easily delete your account by contacting us through the \"Contact Us\". Please note that all your data, including saved posts and any content you've created, will be permanently removed. This action is irreversible, so ensure you've saved any important information.\n\n\nThank you for using EVERSHOP. Your data privacy is important to us.",
+        "buttonText": "Contact Us"
+    },
+    "earnings_screen":{
+        "appBarTitle": "My Earnings",
+        "loadingText": "Loading...",
+        "errorText": "An error occurred. Please try again later.",
+        "performanceSummary": "Performance Summary",
+        "total": "Total",
+        "gross": "GROSS",
+        "net": "NET",
+        "available": "Available",
+        "onHold": "On-hold"
+    },
+    "success_screen":{
+        "successTitle": "Success",
+        "successMessage": "Congratulations, you've successfully become an influencer on Evershop! Start posting now!\n\n",
+        "successMessage1": "Your account is under review by our team. You will be notified once it is approved.",
+        "successMessage2": "Your account is now live and you can start posting!}",
+        "goBackButton": "Go Back"
+    },
+    "delete_account_dialog":{
+        "deleteUserConfirmation": "Are you sure you want to delete this user?",
+        "deleteButton": "Delete"
+    },
+    "verification_form_controller":{
+        "error_fetching_tiktok_data": "An error occurred while fetching your TikTok data",
+        "tiktok_account_in_use": "This TikTok account is already in use",
+        "please_fill_required_fields": "Please fill all required fields.",
+        "please_enter_valid_phone_number": "Please enter a valid phone number.",
+        "please_enter_valid_instagram_handler": "Please enter a valid Instagram handler.",
+        "please_enter_valid_link": "Please enter a valid link.",
+        "phone_number_required": "Phone number is required.",
+        "error_applying_verification": "An error occurred while applying for verification."
+    },
+    "verification_form_screen":{
+        "are_you_a_creator": "Are you a creator?",
+        "verify_your_account": "Verify your account to share content.",
+        "login_with_tiktok": "Login with Tiktok",
+        "login_with_instagram": "Login with Instagram",
+        "or": "OR",
+        "phone_number": "Phone Number*",
+        "instagram_username": "Instagram Username*",
+        "other_links": "Other Links",
+        "get_verified": "Get Verified",
+        "cancel": "Cancel",
+        "thank_you": "Thank You!",
+        "team_will_contact": "Our team will get in touch with you shortly. If you have any concerns, email us at .",
+        "close": "Close",
+        "verification_in_progress": "Verification in Progress",
+        "profile_verification_in_progress": "Your profile verification is in progress. We'll get back to you as soon as possible. If you have any query, feel free to contact us at.",
+        "congratulations": "Congratulations!",
+        "verified_user_message": "You're now a verified user. Start posting and see your impact."
+    },
+    "tag_product": {
+        "title": "Add Product",
+        "product_title_label": "Product Title",
+        "tags_label": "Tags",
+        "product_price_label": "Product Price",
+        "add_tag_button": "Add Tag",
+        "network_issue_message": "We don't have this website currently in our network, but we will add it as soon as possible and share it with you.",
+        "oops_message": "Oops!"
+    }
+}

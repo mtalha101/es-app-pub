@@ -1,0 +1,709 @@
+{
+    "onboarding_screen": {
+        "welcome_message": "مرحبًا بك في Evershop",
+        "discover_message": "اكتشف، شارك واربح!",
+        "create_style_message": "اصنع وشارك أسلوبك الخاص",
+        "share_recommendation_message": "شارك مظهرك المفضل وتوصيات المنتجات.",
+        "track_success_message": "تتبع نجاحك!",
+        "monitor_performance_message": "راقب أدائك وشاهد تأثيرك.",
+        "ready_to_start_message": "أنت جاهز للبدء!",
+        "influence_profitable_message": "دعنا نجعل تأثيرك مربحًا",
+        "skip_button": "تخطي"
+    },
+    "welcome_screen": {
+        "scroll_products_message": "تصفح منتجاتك المفضلة.",
+        "login_button": "تسجيل الدخول",
+        "create_account_button": "إنشاء حساب",
+        "skip_button": "تخطي"
+    },
+    "login_screen": {
+        "login_title": "تسجيل الدخول",
+        "community_message": "كن جزءًا من مجتمعنا الآن",
+        "phone_label": "الهاتف",
+        "email_label": "البريد الإلكتروني",
+        "password_label": "كلمة المرور",
+        "forgot_password_message": "نسيت كلمة المرور؟",
+        "login_with_email": "تسجيل الدخول باستخدام البريد الإلكتروني",
+        "login_with_phone": "تسجيل الدخول باستخدام الهاتف",
+        "or_separator": "أو",
+        "continue_with_google": "تابع باستخدام Google",
+        "continue_with_apple": "تابع باستخدام Apple",
+        "no_account_message": "ليس لديك حساب؟",
+        "signup_link": "التسجيل",
+        "enter_email_message": "الرجاء إدخال بريدك الإلكتروني وكلمة المرور",
+        "invalid_email_message": "يرجى إدخال بريد إلكتروني صالح",
+        "incorrect_password_message": "كلمة المرور غير صحيحة",
+        "email_not_registered_message": "البريد الإلكتروني غير مسجل",
+        "login_error_message": "خطأ في تسجيل الدخول",
+        "enter_phone_message": "الرجاء إدخال رقم هاتفك",
+        "invalid_phone_message": "الرجاء إدخال رقم هاتف صالح",
+        "phone_not_registered_message": "رقم الهاتف غير مسجل",
+        "too_many_attempts_message": "عدد المحاولات كبير، حاول مرة أخرى لاحقًا.",
+        "phone_verification_failed_message": "فشل التحقق من رقم الهاتف."
+    },
+    "register_screen": {
+        "signup_title": "التسجيل",
+        "essential_info_message": "املأ المعلومات الأساسية لإنشاء حسابك",
+        "phone_label": "الهاتف",
+        "email_label": "البريد الإلكتروني",
+        "password_label": "كلمة المرور",
+        "signup_with_email": "التسجيل باستخدام البريد الإلكتروني",
+        "signup_with_phone": "التسجيل باستخدام الهاتف",
+        "terms_agreement_message1": "أوافق على ",
+        "terms_agreement_message2": "شروط الاستخدام",
+        "terms_agreement_message3": "، ",
+        "terms_agreement_message4": "سياسة الخصوصية",
+        "terms_agreement_message5": " و ",
+        "terms_agreement_message6": "اتفاقية الشراكة",
+        "create_account_button": "إنشاء حساب",
+        "or_separator": "أو",
+        "continue_with_google": "تابع باستخدام Google",
+        "continue_with_apple": "تابع باستخدام Apple",
+        "existing_account_message": "هل لديك حساب بالفعل؟",
+        "login_link": "تسجيل الدخول",
+        "enter_email_message": "يرجى إدخال بريد إلكتروني",
+        "invalid_email_message": "البريد الإلكتروني غير صالح",
+        "enter_password_message": "يرجى إدخال كلمة مرور",
+        "password_length_message": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+        "password_strength_message": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل وحرف صغير ورقم",
+        "terms_condition_agreement_message": "يرجى الموافقة على الشروط والأحكام",
+        "email_already_registered_message": "هذا البريد الإلكتروني مسجل بالفعل",
+        "enter_phone_message": "يرجى إدخال رقم هاتفك",
+        "phone_already_registered_message": "هذا الرقم مسجل بالفعل",
+        "too_many_attempts_message": "عدد المحاولات كبير، حاول مرة أخرى لاحقًا.",
+        "phone_verification_failed_message": "فشل التحقق من رقم الهاتف."
+    },
+    "forgot_password_screen": {
+        "title": "نسيت كلمة المرور",
+        "email_label": "عنوان البريد الإلكتروني",
+        "reset_button": "إعادة تعيين",
+        "enter_email_message": "يرجى إدخال بريدك الإلكتروني",
+        "invalid_email_message": "يرجى إدخال بريد إلكتروني صالح",
+        "reset_success_message": "تم إرسال بريد إعادة تعيين كلمة المرور بنجاح",
+        "email_not_registered_message": "هذا البريد الإلكتروني غير مسجل",
+        "reset_failed_message": "تعذر إرسال بريد إعادة تعيين كلمة المرور"
+    },
+    "verify_email_screen": {
+        "title": "التحقق من البريد الإلكتروني",
+        "verify_message": "يرجى التحقق من بريدك الإلكتروني عن طريق النقر على الرابط المرسل إليك، ثم اضغط على متابعة",
+        "continue_button": "متابعة",
+        "resend_email_button": "إعادة إرسال البريد الإلكتروني",
+        "logout_button": "تسجيل الخروج",
+        "email_not_verified_message": "البريد الإلكتروني غير مؤكد",
+        "phone_verification_failed_message": "فشل التحقق من رقم الهاتف",
+        "email_sent_message": "تم ارسال بريد ألكتروني",
+        "sending_email_message": "ارسال بريد ألكتروني...",
+        "resend_in": "إعادة إرسال في",
+        "seconds_suffix": "ثانية"
+    },
+    "share_utils": {
+        "share_prodile":"مشاركة الملف الشخصي",
+        "copy_instagram":"نسخ الرابط\nلإنستغرام",
+        "share_post":"مشاركة المنشور",
+        "title": "تم نسخ الرابط",
+        "content": "هل تريد فتح إنستغرام؟",
+        "cancel": "إلغاء",
+        "open": "فتح",
+        "error": "لا يمكن فتح إنستغرام"
+
+    },
+    "add_phone_screen": {
+        "title": "ما هو رقم هاتفك؟",
+        "description": "سنرسل رمزًا للتحقق وربط رقم هاتفك بحساب Evershop الخاص بك",
+        "phone_label": "الهاتف",
+        "send_code_button": "إرسال الرمز",
+        "enter_phone_message": "يرجى إدخال رقم هاتفك",
+        "phone_already_registered_message": "هذا الرقم مسجل بالفعل",
+        "phone_verification_failed_message": "فشل التحقق من رقم الهاتف",
+        "too_many_attempts_message": "عدد المحاولات كبير، حاول مرة أخرى لاحقًا."
+    },
+    "main_feed": {
+        "buy_now_button": "اشترِ الآن",
+        "report_post_button": "الإبلاغ عن المنشور",
+        "report_user_button": "الإبلاغ عن المستخدم",
+        "share_post_message": "تفقد هذا المنشور",
+        "share_product_message": "تفقد هذا المنتج"
+    },
+    "launch_socials": {
+        "invalid_url_message": "هذا الرابط غير صالح"
+    },
+    "notifications": {
+        "missing_message": "التطبيق يفتقدك",
+        "reminder_message": "لم تقم بزيارة التطبيق منذ فترة"
+    },
+    "report_submitted": {
+        "title": "تم تقديم البلاغ"
+    },
+    "user_blocked_dialog": {
+        "title": "تم حظر المستخدم"
+    },
+    "choose_username_controller": {
+        "title": "ادخل اسم مستخدم",
+        "username_lenght_message": "يجب أن يكون اسم المستخدم 5 أحرف على الأقل",
+        "username_instruction":" يمكن أن يحتوي اسم المستخدم على أحرف وأرقام وشرطات سفلية فقط",
+        "username_taken_message": "اسم المستخدم مأخوذ بالفعل"
+    },
+    "choose_usename_screen": {
+        "username_label": "اسم المستخدم",
+        "choose_message": "اختر اسم مستخدم يمكنك استخدامه للتعريف بنفسك",
+        "continue_button": "متابعة",
+        "username_message1":"سنستخدم اسم مستخدم مؤقت",
+        "username_message2":"يمكنك تغييره لاحقًا في إعدادات ملفك الشخصي."
+    },
+    "verify_OTP_controller": {
+        "sent_code_message": "!تم إرسال رمز التحقق",
+        "incorrect_code_message": "الرمز غير صحيح،الرجاء المحاولة مرة اخرى",
+        "code_verification_error_message": "خطأ في التحقق من الرمز"
+    },
+    "verify_otp_screen": {
+        "appbar_title": "تحقق من الرمز",
+        "verify_otp_heading": "تحقق من الرمز.",
+        "otp_instruction": "يرجى إدخال الرمز المرسل إلى رقم هاتفك.",
+        "resending_otp_message": "جارٍ إعادة إرسال الرمز...",
+        "resend_otp_in_message": "إعادة إرسال الرمز في",
+        "seconds_suffix": "ثواني",
+        "did_not_receive_otp_message": "لم تستلم الرمز؟",
+        "resend_button": "إعادة الإرسال",
+        "verify_button": "تحقق"
+     },
+     "collection_screen":{
+        "collection_label": "المجموعة - ",
+        "loading_collection_message": "جاري تحميل المجموعة..."
+     },
+     "submit_post_report_screen": {
+        "appbar_title": "الإبلاغ عن المنشور",
+        "report_preview": " • معاينة التقرير",
+        "report_message": "أنت على وشك تقديم تقرير حول هذا المنشور التابع لـ",
+        "post_content": "محتوى المنشور",
+        "post_caption": "عنوان المنشور",
+        "report_reason": "سبب التقرير",
+        "no_reason_selected": "لم يتم اختيار سبب",
+        "submit_report": "إرسال التقرير"
+    },
+    "reasons": {
+        "Spam": "محتوى غير مرغوب فيه",
+        "Inappropriate": "محتوى غير لائق",
+        "Abusive": "محتوى مسيء أو ضار",
+        "HateSpeech": "خطاب الكراهية أو العنف",
+        "FalseInfo": "معلومات خاطئة",
+        "Nudity": "محتوى جنسي أو عُري",
+        "Bullying": "التنمر أو المضايقة",
+        "Scam": "الاحتيال أو الخداع",
+        "Suicide": "الانتحار أو إيذاء النفس",
+        "IllegalGoods": "بيع سلع غير قانونية أو خاضعة للتنظيم",
+        "IPViolation": "انتهاك حقوق الملكية الفكرية",
+        "Drugs": "مخدرات"
+    },
+    "report_bottomsheet": {
+        "report_user_reason": "لماذا تقوم بالإبلاغ عن هذا المستخدم؟",
+        "report_post_reason": "لماذا تقوم بالإبلاغ عن هذا المنشور؟",
+        "report_anonymity_message": "تقريرك مجهول، إلا إذا كنت تبلغ عن انتهاك حقوق الملكية الفكرية.",
+        "user_content_label": "محتوى المستخدم"
+    },
+      "delete_dialog": {
+        "title": "حذف المنشور",
+        "confirmation_message": "هل أنت متأكد أنك تريد حذف هذا المنشور؟",
+        "delete_button": "حذف المنشور",
+        "deleting_message": "جاري حذف المنشور..."
+    },
+    "edit_bottomsheet": {
+        "edit_post": "تعديل المنشور",
+        "publish_post": "نشر المشور",
+        "unpublish_post": "الغاء نشر المنشور",
+        "delete_post": "حذف المنشور",
+        "report_post": "الابلاغ عن المنشور"
+    },
+    "product_bottomsheet": {
+        "promo_code_copied": "تم نسخ رمز الترويج!",
+        "buy_now": "اشترِ الآن",
+        "promo_code": "رمز الترويج: ",
+        "price_unavailable": "السعر غير متوفر",
+        "Unknown": "غير معروف"
+    },
+    "publish_post_dialog": {
+        "title": "نشر المنشور",
+        "confirmation_message": "هل أنت متأكد أنك تريد نشر هذا المنشور؟",
+        "publish_button": "نشر المنشور",
+        "loading_message": "جاري نشر المنشور..."
+    },
+    "unpublish_post_dialog": {
+        "title": "إلغاء نشر المنشور",
+        "confirmation_message": "هل أنت متأكد أنك تريد إلغاء نشر هذا المنشور؟",
+        "unpublish_button": "إلغاء نشر المنشور",
+        "loading_message": "جاري إلغاء نشر المنشور..."
+    },
+    "feed_post_snappy":{
+        "title_tag": "العنوان",
+        "description_tag": "الوصف",
+        "keywords_tag": "الكلمات المفتاحية",
+        "seoText": "بواسطة",
+        "trimCollapsedText": "المزيد ",
+        "trimExpandedText": " أقل",
+        "percentageOff": "% خصم",
+        "currencyOff": " خصم",
+        "unpublishedText": "غير منشور"
+    },
+    "feed_post":{
+        "edit_label": "تعديل",
+        "delete_label": "حذف"
+    },
+    "post_favorite":{
+        "title": "لا توجد منشورات مفضلة.",
+        "no_favorite_posts_message": "لم تضف أي منشورات إلى المفضلة حتى الآن.",
+        "loading_message": "جاري تحميل المنشورات المفضلة..."
+    },
+    "product_favorite": {
+        "title": "لا توجد منتجات مفضلة.",
+        "no_favorite_products_message": "لم تضف أي منتجات إلى المفضلة حتى الآن.",
+        "loading_message": "جاري تحميل المنتجات المفضلة..."
+    },
+    "home_controller":{
+        "check_post_message":"تفقد هذا المنشور: ",
+        "check_out" : "تحقق من ",
+        "profile":"الخاص بي :",
+        "this":"هذا",
+        "my":" الملف الشخصي "
+    },
+    "post_options":{
+        "post_photo":"أنشئ منشور",
+        "post_video":"نشر فيديو",
+        "cancel":"إلغاء",
+        "create_collection":" أنشئ مجموعة متجر"
+    },
+    "congrats_page":{
+        "congratulations": "تهانينا",
+        "approval_message": "تمت الموافقة على طلبك لتصبح صانع محتوى ويمكنك البدء في النشر الآن!",
+        "start_posting": "ابدأ النشر",
+        "post_later": "سأنشر لاحقًا"
+    },
+    "report_screen": {
+        "report_user_reason": "لماذا تقوم بالإبلاغ عن هذا المستخدم؟",
+        "report_post_reason": "لماذا تقوم بالإبلاغ عن هذا المنشور؟",
+        "report_anonymity_message": "تقريرك مجهول، إلا إذا كنت تبلغ عن انتهاك حقوق الملكية الفكرية.",
+        "spam_reason": "إنه بريد عشوائي",
+        "inappropriate_reason": "محتوى غير لائق",
+        "abusive_reason": "محتوى مسيء أو ضار",
+        "hate_speech_reason": "يحتوي على خطاب كراهية أو عنف",
+        "false_info_reason": "معلومات خاطئة",
+        "nudity_reason": "يحتوي على عري أو محتوى جنسي",
+        "bullying_reason": "التنمر أو التحرش",
+        "scam_reason": "احتيال",
+        "self_injury_reason": "انتحار أو إيذاء النفس",
+        "illegal_goods_reason": "بيع سلع غير قانونية",
+        "intellectual_property_reason": "انتهاك حقوق الملكية الفكرية",
+        "drugs_reason": "المخدرات",
+        "report_preview": "معاينة التقرير",
+        "submit_report_message": "أنت على وشك تقديم تقرير حول هذا المنشور لـ",
+        "spam_reason_message": "محتوى البريد العشوائي",
+        "inappropriate_reason_message": "محتوى غير لائق",
+        "abusive_reason_message": "محتوى مسيء أو ضار",
+        "hate_speech_reason_message": "خطاب كراهية أو عنف",
+        "false_info_reason_message": "معلومات خاطئة",
+        "nudity_reason_message": "محتوى جنسي أو عري",
+        "post_content_label": "محتوى المنشور",
+        "post_caption_label": "عنوان المنشور",
+        "user_content_label": "محتوى المستخدم",
+        "report_reason_label": "سبب التقرير",
+        "submit_report_button": "إرسال التقرير"
+    },
+    "influencer_profile": {
+        "loading_posts_message": "جاري تحميل المنشورات الأخيرة...",
+        "no_posts_message": "لا توجد منشورات حتى الآن!",
+        "loading_products_message": "جاري تحميل المنتجات الأخيرة...",
+        "no_products_message": "لا توجد منتجات حتى الآن!",
+        "posts_tab": "المنشورات",
+        "store_tab": "المتجر",
+        "block_user_button": "حظر المستخدم",
+        "report_user_button": "الإبلاغ عن المستخدم",
+        "block_confirmation_message": "هل أنت متأكد أنك تريد حظر هذا المستخدم؟",
+        "block_button": "حظر",
+        "unpublished_status": "غير منشور",
+        "post_reported_message": "تم الإبلاغ عن المنشور",
+        "block_confirmation_message1":"إذا قمت بحظر هذا المستخدم، فلن ترى منشوراته بعد الآن.",
+        "not_now_button": "ليس الآن",
+        "convert_message": "جاري تحويل ملفك الشخصي إلى مؤثر. قد يستغرق ذلك بضع ثوانٍ. لا تغلق التطبيق.",
+        "fill_details_message": "يرجى ملء جميع البيانات المطلوبة"
+    },
+    "influencer_posts_screen": {
+        "no_likes_label": "لا يوجد منشورات معجب بها.",
+        "no_likes_message": "لم تقم بإعجاب أي منشورات حتى الآن.",
+        "liked_posts": "المنشورات المعجب بها",
+        "post_not_found": "لم يتم العثور على المنشور.",
+        "can't_find_post": "لا يمكننا العثور على المنشور الذي تبحث عنه بعد الآن."
+    },
+    "posts_screen": {
+        "discover_inspiration_title": "اكتشف الإلهام",
+        "searchingPosts": "جاري البحث عن المنشورات...",
+        "noPostsFound": "لم يتم العثور على منشورات.",
+        "endOfPosts": "نهاية المنشورات"
+    },
+    "sad_screen": {
+        "title": "لا تحزن",
+        "message": "تم رفض طلبك لتصبح صانع محتوى. اكتسب بعض الشعبية على منصات التواصل الاجتماعي الأخرى للحصول على الموافقة",
+        "button": "متابعة"
+     },
+     "view_post_screen":{ 
+        "loading_post_message": "جاري تحميل المنشور..."
+        },
+    "edit_post_screen":{
+        "appBarTitle": "تعديل المنشور",
+        "postDescriptionLabel": "اكتب وصف المنشور",
+        "tagProductUrlHint": "رابط المنتج",
+        "updateButtonText": "تحديث"
+    },
+    "submit_user_report_screen":{
+        "appBarTitle": "الإبلاغ عن المستخدم",
+        "reportPreview": "معاينة التقرير • ",
+        "reportMessage": "أنت على وشك تقديم تقرير حول هذا المستخدم لـ ",
+        "userContent": "محتوى المستخدم",
+        "user": "المستخدم",
+        "posts": " المنشورات",
+        "reportReason": "سبب التقرير",
+        "noReasonSelected": "لم يتم اختيار سبب",
+        "submitReport": "إرسال التقرير"
+    },
+    "add_product_controller": {
+        "search_error_message": "حدث خطأ أثناء إضافة المنتج",
+        "bw_message": "يرجى الامتناع عن استخدام كلمات غير لائقة.",
+        "4_sec_wait": "جاري جلب بيانات المنتج، يرجى الانتظار...",
+        "stop_msg" : "استغرق جلب بيانات المنتج وقتًا طويلاً، سيتم المتابعة بالبيانات التي تم جلبها حتى الآن..."
+    },
+    "become_influencer_controller":{
+        "tiktokDataError": "حدث خطأ أثناء جلب بيانات التيك توك الخاصة بك",
+        "tiktokAccountInUse": "حساب التيك توك هذا مستخدم بالفعل",
+        "usernameTaken": "اسم المستخدم هذا مأخوذ بالفعل",
+        "instagramAccountInUse": "حساب الإنستغرام هذا مستخدم بالفعل"
+    },
+    "create_post_controller":{
+        "valid_url": "يرجى إدخال رابط صالح",
+        "url_start": "يجب أن يبدأ الرابط بـ https://",
+        "video_size": "يجب أن يكون حجم الفيديو أقل من 50 ميجابايت",
+        "image_size": "يجب أن يكون حجم الصورة أقل من 5 ميجابايت",
+        "image_resolution": "يجب أن تكون دقة الصورة لا تقل عن 480x853",
+        "creating_post": "جاري إنشاء منشورك...",
+        "error_creating_post": "حدث خطأ أثناء إنشاء منشورك"
+    },
+    "edit_post_controller":{
+        "imageResolutionError": "يجب أن تكون دقة الصورة لا تقل عن 480x853",
+        "emptyTextFieldError": "يرجى إزالة الحقول النصية الفارغة لتحديث المنتجات",
+        "updatingPost": "جاري تحديث منشورك..."
+    },
+    "add_product_screen":{
+        "appBarTitle": "إضافة منتج",
+        "loadingText": "جاري جلب بيانات المنتج...",
+        "productTitleHint": "اسم المنتج",
+        "tagsHint": "الوسوم",
+        "addTagPrefix": "+ إضافة وسم: ",
+        "currencyDefault": "ر.س",
+        "productPriceHint": "سعر المنتج",
+        "addButtonText": "إضافة"
+    },
+    "add_socials_screen":{
+        "appBarTitle": "إثبات منصات التواصل الاجتماعي",
+        "instructionText": "حاول ملء أكبر عدد ممكن من الحقول للحصول على الموافقة",
+        "instagramLabel": "أضف رابط Instagram",
+        "instagramHint": "أضف رابط Instagram الخاص بك",
+        "tiktokLabel": "أضف رابط Tiktok",
+        "tiktokHint": "أضف رابط Tiktok الخاص بك",
+        "snapchatLabel": "أضف رابط Snapchat",
+        "snapchatHint": "أضف رابط Snapchat الخاص بك",
+        "goBackText": "العودة"
+    },
+    "search_screen": {
+        "search_placeholder": "ابحث",
+        "recent_searches_label": "عمليات البحث الأخيرة",
+        "creators_tab": "صانعي المحتوى",
+        "brands_tab": "علامات تجارية",
+        "products_tab": "المنتجات",
+        "brans_searching": "جاري البحث عن العلامات التجارية...",
+        "loadingCreators": "جاري البحث عن صانعي المحتوى...",
+        "fetching_creators": "جاري جلب صانعي المحتوى...",
+        "noCreatorsFound": "لم يتم العثور على صانعي محتوى.",
+        "noMatchingCreators": "لا يوجد صانعي المحتوى مطابقون لبحثك.",
+        "endOfCreators": "نهاية صانعي المحتوى",
+        "discover_products_label": "اكتشف المنتجات",
+        "loadingSearchProducts": "جاري البحث عن المنتجات...",
+        "fetchingProductData": "جاري جلب المنتجات...",
+        "noProductsFound": "لم يتم العثور على منتجات.",
+        "noMatchingProducts": "لا توجد منتجات مطابقة لبحثك.",
+        "endOfProducts": "نهاية المنتجات",
+        "discover_title": "اكتشف - ",
+        "loadingMessage": "جاري تحميل المجموعة...",
+        "noProductFound": "لم يتم العثور على منتج.",
+        "noProductAvailable": "لا توجد منتجات متاحة في هذه الفئة.",
+        "Fashion": "الموضة",
+        "Beauty": "الجمال",
+        "Luxury": "الفخامة",
+        "Baby": "الأطفال",
+        "Home": "المنزل",
+        "Other": "أخرى"
+    },
+    "account_screen": {
+        "posts_tab": "المنشورات",
+        "store_tab": "المتجر",
+        "unpublished_profile_message": "الملف الشخصي غير منشور، تواصل مع الدعم",
+        "unverified_profile_message": "الملف الشخصي غير موثق، قم بالتوثيق الآن",
+        "veify_now":"التوثيق الآن",
+        "unpublished_status": "غير منشور",
+        "add_first_post_message": "أضف أول منشور لك",
+        "add_post_button": "إضافة منشور",
+        "ass_product_button":"إضافة منتج",
+        "add_first_product_message": "أضف أول منتج لك"
+    },
+    "menu_screen": {
+        "appBarTitle": "القائمة",
+        "deleteUser": "حذف المستخدم",
+        "adIdNotFound": "لم يتم العثور على معرف الإعلان",
+        "adIdCopied": "تم نسخ معرف الإعلان",
+        "adIdCopy": "نسخ معرف الإعلان",
+        "linkSocialAccountsTitle": "ربط حساباتك الاجتماعية",
+        "linkSocialAccountsDescription": "تواصل مع الشبكات الاجتماعية، وشارك الإلهام، وشاهد أرباحك تنمو",
+        "logIn": "تسجيل الدخول",
+        "submitted": "تم الإرسال",
+        "linkNow": "ربط الآن",
+        "myLikes": "إعجاباتي",
+        "profile": "الملف الشخصي",
+        "myEarnings": "أرباحي",
+        "blockedUsers": "المستخدمون المحظورون",
+        "pushNotifications": "إشعارات الدفع",
+        "privacyPolicy": "سياسة الخصوصية",
+        "termsConditions": "الشروط والأحكام",
+        "contactSupport": "الاتصال بالدعم",
+        "logout": "تسجيل الخروج",
+        "deleteAccount": "حذف الحساب",
+        "partner_brands_menu": "العلامات التجارية الشريكة"
+    },
+    "link_now": {
+        "become_verified_message": "أصبح موثقًا",
+        "link_socials_message": "ربط حساباتك الاجتماعية",
+        "link_instruction_message": "قم بربط حسابات TikTok و Instagram الخاصة بك. نؤكد لك أننا لن نقوم بنشر أي شيء بدون إذنك!",
+        "connect_tiktok_button": "ربط TikTok",
+        "connected_tiktok_button": "تم ربط TikTok",
+        "connect_instagram_button": "ربط Instagram",
+        "connected_instagram_button": "تم ربط Instagram"
+
+    },
+    "my_likes": {
+        "title": "العناصر المفضلة",
+        "products_tab": "المنتجات",
+        "posts_tab": "المنشورات",
+        "loading_favorite_posts_message": "جاري تحميل المنشورات المفضلة...",
+        "no_favorite_products_message": "لم تضف أي منتجات إلى المفضلة حتى الآن.",
+        "no_favorite_posts_message": "لم تضف أي منشورات إلى المفضلة حتى الآن.",
+        "oops_message": "عذرًا!"
+    },
+    "profile_settings": {
+        "title": "إعدادات الملف الشخصي",
+        "session_expired_message": "انتهت صلاحية الجلسة",
+        "login_again_message": "يرجى تسجيل الدخول مرة أخرى للمتابعة",
+        "edit_photo_label": "تعديل الصورة",
+        "name_label": "الاسم",
+        "Add_name_label": "إضافة الاسم",
+        "username_label": "اسم المستخدم",
+        "add_username_label": "إضافة اسم المستخدم",
+        "phone_label": "الهاتف",
+        "email_label": "البريد الإلكتروني",
+        "password_label": "كلمة المرور",
+        "description_label": "الوصف",
+        "add_description_label": "إضافة الوصف",
+        "update_description_label": "تحديث الوصف",
+        "vibe_label": "المزاج",
+        "links_label": "الروابط",
+        "add_links_label": "إضافة روابط",
+        "country_label": "الدولة",
+        "add_country_label": "إضافة الدولة",
+        "update_button": "تحديث",
+        "update_name_label": "تحديث الاسم",
+        "update_username_label": "تحديث اسم المستخدم",
+        "add_phone_number_label": "إضافة رقم الهاتف",
+        "add_email_address_label": " بريد إلكتروني",
+        "update_email_address_label": "تحديث البريد الإلكتروني",
+        "add_password_label": "إضافة كلمة مرور",
+        "change_password_label": "تغيير كلمة المرور",
+        "instagram_label": "Instagram",
+        "youtube_label": "YouTube",
+        "tiktok_label": "TikTok",
+        "snapchat_label": "Snapchat",
+        "twitter_label": "Twitter",
+        "pinterest_label": "Pinterest",
+        "other_links_label": "روابط أخرى",
+        "choose_your_vibe_label": "اختر المزاج الخاص بك",
+        "social_links": "روابط التواصل الاجتماعي"
+    },
+    "contact_influencer_screen":{
+        "join_the_community": "انضم إلى المجتمع",
+        "description": "نحن متحمسون لرؤية اهتمامك بأن تصبح صانع محتوى في Evershop! شارك أسلوبك، وألهم متابعيك، واكسب العمولات والمكافآت.",
+        "contact_us": "تواصل معنا"
+    },
+    "my_earnings": {
+        "title": "أرباحي",
+        "performance_summary_label": "ملخص الأداء",
+        "total_label": "الإجمالي",
+        "available_label": "المتوفر",
+        "on_hold_label": "معلق",
+        "gross_label": "الإجمالي",
+        "net_label": "الصافي"
+    },
+    "blocked_users": {
+        "title": "المستخدمون المحظورون",
+        "unblock_button": "إلغاء الحظر",
+        "no_blocked_users_message": "لا يوجد مستخدمون محظورون"
+    },
+    "partner_brands": {
+        "title": "العلامات التجارية الشريكة",
+        "search_placeholder": "بحث"
+    },
+    "delete_account": {
+        "title": "حذف الحساب",
+        "delete_instruction_message": "يمكنك حذف حسابك بسهولة عن طريق التواصل معنا عبر 'تواصل معنا'. يُرجى ملاحظة أنه سيتم حذف جميع بياناتك، بما في ذلك المنشورات المحفوظة وأي محتوى قمت بإنشائه، بشكل دائم. هذا الإجراء لا عودة فيه، لذا تأكد من حفظ أي معلومات هامة.",
+        "privacy_note_message": "شكرًا لاستخدامك EVERSHOP. خصوصية بياناتك مهمة بالنسبة لنا.",
+        "contact_us_label": "تواصل معنا"
+    },
+    "create_post": {
+        "title": "إضافة منشور",
+        "write_something_placeholder": "اكتب شيئًا هنا...",
+        "add_product_button": "إضافة منتج",
+        "tag_instruction_message1": "قم بربط الروابط المتعلقة بالمنتجات من مواقع ",
+        "tag_instruction_message2": "العلامات التجارية الشريكة",
+        "tag_instruction_message3": " لدينا لكسب العمولة",
+        "post_button": "نشر",
+        "invalid_url_message": "الرجاء إدخال عنوان URL صالح",
+        "url_format_message": "يجب أن يبدأ عنوان URL بـ https://",
+        "image_resolution_message": "يجب أن تكون دقة الصورة لا تقل عن 480x853",
+        "creating_post_message": "جاري إنشاء منشورك...",
+        "access_denied_message": "تم رفض الوصول",
+        "photo_access_message": "السماح بالوصول إلى الصور من أجل النشر",
+        "open_settings_button": "فتح الإعدادات",
+        "done": "تم",
+        "free": "مجانًا"
+
+    },
+    "unavailable_website": {
+        "title": "الموقع غير متاح",
+        "message": "ليس لدينا هذا الموقع حاليًا في شبكتنا، سنقوم بإضافته في أقرب وقت ممكن ومشاركته معك"
+    },
+    "video_editor_widget":{
+        "processingVideo": "جاري معالجة الفيديو الخاص بك...",
+        "leaveEditorTooltip": "مغادرة المحرر",
+        "openCropScreenTooltip": "فتح شاشة القص",
+        "doneButtonText": "تم",
+        "trimText": "قص"
+    },
+    "change_controller":{
+        "validEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+        "usernameTaken": "اسم المستخدم مأخوذ بالفعل",
+        "usernameMinLength": "يجب أن يكون اسم المستخدم 5 أحرف على الأقل",
+        "usernameInvalid": "اسم المستخدم يمكن أن يحتوي فقط على أحرف وأرقام وشرطات سفلية",
+        "validName": "يرجى إدخال اسم مستخدم صالح",
+        "emailUpdated": "تم تحديث البريد الإلكتروني بنجاح",
+        "validDescription": "يرجى إدخال وصف صالح",
+        "descriptionUpdated": "تم تحديث الوصف بنجاح",
+        "validInstagramLink": "يرجى إدخال رابط Instagram صالح",
+        "validSnapchatLink": "يرجى إدخال رابط Snapchat صالح",
+        "validTikTokLink": "يرجى إدخال رابط TikTok صالح",
+        "validYouTubeLink": "يرجى إدخال رابط YouTube صالح",
+        "validPinterestLink": "يرجى إدخال رابط Pinterest صالح",
+        "validTwitterLink": "يرجى إدخال رابط Twitter صالح",
+        "atLeastOneLink": "يرجى إدخال رابط واحد على الأقل",
+        "validLinks": "يرجى إضافة روابط صالحة",
+        "usernameUpdated": "تم تحديث اسم المستخدم بنجاح"
+    },
+    "change_password_controller":{
+        "allFieldsRequired": "جميع الحقول مطلوبة",
+        "newPasswordsDoNotMatch": "كلمات المرور الجديدة غير متطابقة",
+        "passwordUpdated": "تم تحديث كلمة المرور!",
+        "oldPasswordIncorrect": "كلمة المرور القديمة غير صحيحة",
+        "passwordAdded": "تمت إضافة كلمة المرور!",
+        "pleaseLoginAgain": "يرجى تسجيل الدخول مرة أخرى لإضافة كلمة مرور",
+        "errorUpdatingPassword": "حدث خطأ أثناء تحديث كلمة المرور",
+        "emailInUse":"هذا البريد الإلكتروني مستخدم بالفعل. يرجى تجربة بريد إلكتروني مختلف لإنشاء كلمة مرور"
+    },
+    "settings_controller":{
+        "login_error": "يرجى تسجيل الدخول مرة أخرى لحذف المستخدم",
+        "delete_error": "حدث خطأ أثناء حذف المستخدم",
+        "chat_error": "حدث خطأ أثناء فتح الدردشة"
+    },
+    "blocked_user_screen":{
+        "title": "المستخدمون المحظورون",
+        "no_blocked_users_message": "لا يوجد مستخدمون محظورون",
+        "unblock_button": "إلغاء الحظر"
+    },
+    "currency_change":{
+        "currency": "اختر العملة"
+    },
+    "change_password_screen":{
+        "appBarTitleWithPassword": "تغيير كلمة المرور",
+        "appBarTitleWithoutPassword": "إضافة كلمة مرور",
+        "oldPasswordHint": "كلمة المرور القديمة",
+        "newPasswordHint": "كلمة المرور الجديدة",
+        "confirmNewPasswordHint": "تأكيد كلمة المرور الجديدة",
+        "updateButtonText": "تحديث",
+        "addButtonText": "إضافة",
+        "createPassword": "إنشاء كلمة مرور"
+    },
+    "delete_account_screen":{
+        "title": "حذف الحساب",
+        "description": "يمكنك حذف حسابك بسهولة عن طريق التواصل معنا عبر 'تواصل معنا'. يُرجى ملاحظة أنه سيتم حذف جميع بياناتك، بما في ذلك المنشورات المحفوظة وأي محتوى قمت بإنشائه، بشكل دائم. هذا الإجراء لا رجعة فيه، لذا تأكد من حفظ أي معلومات هامة.\n\n\nشكرًا لاستخدامك EVERSHOP. خصوصية بياناتك مهمة بالنسبة لنا.",
+        "buttonText": "تواصل معنا"
+    },
+    "earnings_screen":{
+        "appBarTitle": "أرباحي",
+        "loadingText": "جاري التحميل...",
+        "errorText": "حدث خطأ. يرجى المحاولة مرة أخرى لاحقًا.",
+        "performanceSummary": "ملخص الأداء",
+        "total": "الإجمالي",
+        "gross": "الإجمالي",
+        "net": "الصافي",
+        "available": "المتوفر",
+        "onHold": "معلق"
+    },
+    "success_screen":{
+        "successTitle": "نجاح",
+        "successMessage": "تهانينا، لقد أصبحت مؤثرًا على Evershop بنجاح! ابدأ النشر الآن!\n\n",
+        "successMessage1": "حسابك قيد المراجعة من قبل فريقنا. سيتم إخطارك بمجرد الموافقة عليه.",
+        "successMessage2": "حسابك الآن نشط ويمكنك البدء في النشر!",
+        "goBackButton": "العودة"
+    },
+    "delete_account_dialog":{
+        "deleteUserConfirmation": "هل أنت متأكد أنك تريد حذف هذا المستخدم؟",
+        "deleteButton": "حذف"
+    },
+    "verification_form_controller":{
+        "error_fetching_tiktok_data": "حدث خطأ أثناء جلب بيانات التيك توك الخاصة بك",
+        "tiktok_account_in_use": "حساب التيك توك هذا مستخدم بالفعل",
+        "please_fill_required_fields": "يرجى ملء جميع الحقول المطلوبة.",
+        "please_enter_valid_phone_number": "يرجى إدخال رقم هاتف صالح.",
+        "please_enter_valid_instagram_handler": "يرجى إدخال معرف Instagram صالح.",
+        "please_enter_valid_link": "يرجى إدخال رابط صالح.",
+        "phone_number_required": "رقم الهاتف مطلوب.",
+        "error_applying_verification": "حدث خطأ أثناء التقديم للتحقق."
+    },
+    "verification_form_screen":{
+        "are_you_a_creator": "هل أنت صانع محتوى؟",
+        "verify_your_account": "وثق حسابك لمشاركة المحتوى.",
+        "login_with_tiktok": "تسجيل الدخول باستخدام تيك توك",
+        "login_with_instagram": "تسجيل الدخول باستخدام إنستغرام",
+        "or": "أو",
+        "phone_number": "رقم الهاتف*",
+        "instagram_username": "اسم مستخدم إنستغرام*",
+        "other_links": "روابط أخرى",
+        "get_verified": "احصل على التوثيق",
+        "cancel": "إلغاء",
+        "thank_you": "شكرًا لك!",
+        "team_will_contact": "سيتواصل معك فريقنا قريبًا. إذا كان لديك أي استفسارات، راسلنا عبر البريد الإلكتروني.",
+        "close": "إغلاق",
+        "verification_in_progress": "التحقق قيد التقدم",
+        "profile_verification_in_progress": "التحقق من ملفك الشخصي قيد التقدم. سنعود إليك في أقرب وقت ممكن. إذا كان لديك أي استفسار، لا تتردد في الاتصال بنا عبر البريد الإلكتروني.",
+        "congratulations": "تهانينا!",
+        "verified_user_message": "أنت الآن مستخدم موثق. ابدأ في النشر وشاهد تأثيرك."
+    },
+    "tag_product": {
+        "title": "إضافة منتج",
+        "product_title_label": "عنوان المنتج",
+        "tags_label": "الوسوم",
+        "product_price_label": "سعر المنتج",
+        "add_tag_button": "إضافة وسم",
+        "network_issue_message": "هذا الموقع غير متوفر حاليًا في شبكتنا، ولكن سنقوم بإضافته في أقرب وقت ممكن ومشاركته معك.",
+        "oops_message": "عذرًا!"
+    }
+}
