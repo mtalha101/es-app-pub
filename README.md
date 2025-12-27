@@ -27,18 +27,6 @@
 
 ---
 
-## 🎬 Demo
-
-<p align="center">
-  <video width="300" autoplay loop muted playsinline>
-    <source src="assets/demo.MOV" type="video/quicktime">
-    <source src="assets/demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
-
----
-
 ## 📖 Overview
 
 **Evershop** is a production-ready social commerce mobile application that bridges the gap between content creators (influencers) and their audience. The platform enables creators to monetize their influence by sharing shoppable content, curating product collections, and offering exclusive virtual sessions to their followers.
