@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[PLACEHOLDER_APP_LOGO_URL]" alt="Evershop Logo" width="120" height="120"/>
+  <img src="https://cdn.prod.website-files.com/64db5b1b6d4fcb8ea52ed9fb/65073c5beea0aedf35e7cb5c_SVG%20Evershop.svg" alt="Evershop Logo" width="120" height="120"/>
 </p>
 
 <h1 align="center">Evershop</h1>
@@ -30,7 +30,7 @@
 ## 🎬 Demo
 
 <p align="center">
-  <img src="[PLACEHOLDER_DEMO_GIF_URL]" alt="Evershop Demo" width="300"/>
+  <img src="https://cdn.prod.website-files.com/64db5b1b6d4fcb8ea52ed9fb/67ff8a394faea05821e171dd_GRWNET%20-%20Website%20content-2-p-1080.png" alt="Evershop Demo" width="300"/>
 </p>
 
 <p align="center">
@@ -48,6 +48,7 @@
 ### 🎯 The Problem
 
 Content creators struggle to monetize their influence effectively. Traditional affiliate marketing is fragmented, and there's no unified platform for creators to:
+
 - Share shoppable content seamlessly
 - Build curated product collections
 - Offer paid virtual sessions
@@ -56,6 +57,7 @@ Content creators struggle to monetize their influence effectively. Traditional a
 ### 💡 The Solution
 
 Evershop provides an all-in-one platform with:
+
 - **TikTok-style vertical feed** for immersive content consumption
 - **Smart product tagging** with automatic metadata extraction
 - **Integrated payments** via Stripe for sessions
@@ -65,28 +67,32 @@ Evershop provides an all-in-one platform with:
 
 ## 👨‍💻 My Role & Contributions
 
-> *[PLACEHOLDER: Customize this section based on your actual role]*
+> _[PLACEHOLDER: Customize this section based on your actual role]_
 
 As a **[Your Role - e.g., Lead Flutter Developer / Full-Stack Developer]**, I was responsible for:
 
 ### Core Development
+
 - 🏗️ **Architected** the entire Flutter application using feature-based modular architecture
 - 📱 **Built** 15+ feature modules from scratch (Feed, Posts, Products, Sessions, etc.)
 - 🎨 **Implemented** TikTok-style vertical feed with video preloading and smooth scrolling
 - 🔗 **Developed** smart product tagging system with multi-layered URL scraping
 
 ### Technical Challenges Solved
+
 - ⚡ **Performance**: Optimized feed to handle 60fps scrolling with video preload
 - 🔍 **Web Scraping**: Built robust OG tag extraction with fallback strategies
 - 💳 **Payments**: Integrated Stripe + RevenueCat for complex monetization flows
 - 🌐 **Deep Linking**: Implemented Branch SDK for seamless content sharing
 
 ### Backend & Infrastructure
+
 - ☁️ **Firebase**: Designed Firestore data models and security rules
 - ⚙️ **Cloud Functions**: Built serverless functions for OG tag extraction
 - 📊 **Analytics**: Set up comprehensive tracking with Firebase + Adjust
 
 ### Team Collaboration
+
 - 👥 Led a team of [X] developers
 - 📝 Established coding standards and PR review processes
 - 🔄 Implemented CI/CD pipelines for automated deployments
@@ -119,6 +125,7 @@ As a **[Your Role - e.g., Lead Flutter Developer / Full-Stack Developer]**, I wa
 </p>
 
 ### Key Achievements
+
 - 📈 **[PLACEHOLDER]%** increase in user engagement after feed optimization
 - ⚡ **[PLACEHOLDER]ms** average app cold start time
 - 🐛 **99.9%** crash-free sessions (Firebase Crashlytics)
@@ -148,24 +155,24 @@ As a **[Your Role - e.g., Lead Flutter Developer / Full-Stack Developer]**, I wa
 
 ### 📱 For Users
 
-| Feature | Description |
-|---------|-------------|
-| **Vertical Feed** | TikTok-style immersive scrolling with video preloading |
-| **Product Discovery** | Smart product discovery from creator posts |
-| **Creator Profiles** | Follow and explore creator content |
-| **Virtual Sessions** | Book one-on-one sessions with creators |
-| **Subscriptions** | Access exclusive premium content |
-| **Smart Search** | Category-based product discovery |
+| Feature               | Description                                            |
+| --------------------- | ------------------------------------------------------ |
+| **Vertical Feed**     | TikTok-style immersive scrolling with video preloading |
+| **Product Discovery** | Smart product discovery from creator posts             |
+| **Creator Profiles**  | Follow and explore creator content                     |
+| **Virtual Sessions**  | Book one-on-one sessions with creators                 |
+| **Subscriptions**     | Access exclusive premium content                       |
+| **Smart Search**      | Category-based product discovery                       |
 
 ### 🎨 For Creators
 
-| Feature | Description |
-|---------|-------------|
-| **Content Creation** | Create posts with images or videos (9:16 aspect ratio) |
-| **Smart Product Tagging** | Auto-extract product metadata from URLs |
-| **Collections** | Curate themed product collections |
-| **Session Booking** | Offer paid virtual sessions (15-60 mins) |
-| **Monetization** | Earn via affiliates, subscriptions, and sessions |
+| Feature                   | Description                                            |
+| ------------------------- | ------------------------------------------------------ |
+| **Content Creation**      | Create posts with images or videos (9:16 aspect ratio) |
+| **Smart Product Tagging** | Auto-extract product metadata from URLs                |
+| **Collections**           | Curate themed product collections                      |
+| **Session Booking**       | Offer paid virtual sessions (15-60 mins)               |
+| **Monetization**          | Earn via affiliates, subscriptions, and sessions       |
 
 ---
 
@@ -282,6 +289,7 @@ feature/
 **Challenge**: Achieve TikTok-like smooth scrolling with video preloading.
 
 **Solution**:
+
 - Implemented `PreloadPageView` with 4-page preload buffer
 - Custom video player with native controls
 - Lazy loading with `visibility_detector`
@@ -294,6 +302,7 @@ feature/
 **Challenge**: Handle multiple monetization streams (affiliates, subscriptions, sessions).
 
 **Solution**:
+
 - Stripe for session payments with proper error handling
 - RevenueCat for cross-platform subscription management
 - Custom tracking for affiliate conversions
@@ -302,7 +311,8 @@ feature/
 
 **Challenge**: Keep feed, likes, and user data in sync across sessions.
 
-**Solution**: 
+**Solution**:
+
 - Firestore real-time listeners for critical data
 - Optimistic UI updates for better UX
 - Background sync for non-critical updates
@@ -312,49 +322,55 @@ feature/
 ## 🛠️ Tech Stack
 
 ### Frontend
-| Technology | Purpose |
-|------------|---------|
-| Flutter 3.16.9 | Cross-platform UI framework |
-| GetX | State management, DI, routing |
-| Google Fonts | Typography |
-| Cached Network Image | Image caching |
+
+| Technology           | Purpose                       |
+| -------------------- | ----------------------------- |
+| Flutter 3.16.9       | Cross-platform UI framework   |
+| GetX                 | State management, DI, routing |
+| Google Fonts         | Typography                    |
+| Cached Network Image | Image caching                 |
 
 ### Backend & Database
-| Technology | Purpose |
-|------------|---------|
-| Firebase Firestore | Real-time NoSQL database |
-| Firebase Auth | Authentication |
-| Firebase Storage | Media storage (images, videos) |
-| Cloud Functions | Serverless backend |
+
+| Technology         | Purpose                        |
+| ------------------ | ------------------------------ |
+| Firebase Firestore | Real-time NoSQL database       |
+| Firebase Auth      | Authentication                 |
+| Firebase Storage   | Media storage (images, videos) |
+| Cloud Functions    | Serverless backend             |
 
 ### Payments & Monetization
-| Technology | Purpose |
-|------------|---------|
-| Stripe | Session payments |
+
+| Technology | Purpose                 |
+| ---------- | ----------------------- |
+| Stripe     | Session payments        |
 | RevenueCat | Subscription management |
-| Pay | Apple Pay / Google Pay |
+| Pay        | Apple Pay / Google Pay  |
 
 ### Media Processing
-| Technology | Purpose |
-|------------|---------|
-| FFmpeg Kit | Video processing |
-| Image Cropper | Image editing |
-| Video Editor | In-app video editing |
+
+| Technology    | Purpose              |
+| ------------- | -------------------- |
+| FFmpeg Kit    | Video processing     |
+| Image Cropper | Image editing        |
+| Video Editor  | In-app video editing |
 
 ### Analytics & Monitoring
-| Technology | Purpose |
-|------------|---------|
-| Firebase Analytics | User behavior tracking |
-| Firebase Crashlytics | Crash reporting |
-| Adjust SDK | Attribution analytics |
+
+| Technology           | Purpose                |
+| -------------------- | ---------------------- |
+| Firebase Analytics   | User behavior tracking |
+| Firebase Crashlytics | Crash reporting        |
+| Adjust SDK           | Attribution analytics  |
 | Firebase Performance | Performance monitoring |
 
 ### Deep Linking & Communication
-| Technology | Purpose |
-|------------|---------|
-| Branch SDK | Deep linking |
+
+| Technology         | Purpose            |
+| ------------------ | ------------------ |
+| Branch SDK         | Deep linking       |
 | Firebase Messaging | Push notifications |
-| Intercom | Customer support |
+| Intercom           | Customer support   |
 
 ---
 
@@ -414,11 +430,11 @@ fvm flutter build ipa --release --flavor=production -t "lib/flavors/main_product
 
 ## 🌐 Supported Environments
 
-| Environment | Bundle ID | Purpose |
-|-------------|-----------|---------|
-| Development | `ai.evershop.app.dev` | Local testing |
-| Staging | `ai.evershop.app.staging` | QA testing |
-| Production | `ai.evershop.app` | Live users |
+| Environment | Bundle ID                 | Purpose       |
+| ----------- | ------------------------- | ------------- |
+| Development | `ai.evershop.app.dev`     | Local testing |
+| Staging     | `ai.evershop.app.staging` | QA testing    |
+| Production  | `ai.evershop.app`         | Live users    |
 
 ---
 
@@ -431,9 +447,9 @@ fvm flutter build ipa --release --flavor=production -t "lib/flavors/main_product
 
 ## 📚 Documentation
 
-| Document | Description |
-|----------|-------------|
-| [Git Flow Process](git_flow_process.md) | Branching strategy |
+| Document                                              | Description         |
+| ----------------------------------------------------- | ------------------- |
+| [Git Flow Process](git_flow_process.md)               | Branching strategy  |
 | [CI/CD Documentation](evershop_cicd_documentation.md) | Deployment pipeline |
 
 ---
